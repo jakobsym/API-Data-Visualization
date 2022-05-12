@@ -16,7 +16,7 @@ print(f"\nStatus Code: {r.status_code}") #200 = successful
 #Process results
 response_dict = r.json()
 repo_dicts = response_dict['items']
-repo_names, stars = [],[] #creating empty list named 'repo_names', and 'stars'
+repo_names, stars, labels = [],[],[] #creating empty list named 'repo_names', and 'stars'
 
 for repo_dict in repo_dicts:
     repo_names.append(repo_dict['name'])
