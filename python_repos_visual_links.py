@@ -60,4 +60,4 @@ my_layout = {
 }
 
 fig = {'data': data, 'layout': my_layout}
-offline.plot(fig, filename='python_repos_visual.html')
+offline.plot(fig, filename='python_repos_visual_links.html')
