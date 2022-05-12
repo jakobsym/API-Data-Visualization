@@ -48,7 +48,7 @@ my_layout = {
     'title': 'Most-Starred Python Projects on Github',
     'titlefont': {'size': 28},
     'xaxis': {
-        'title': 'Repository',
+        'title': 'Repository Name',
         'titlefont': {'size': 24},
         'tickfont': {'size': 14},
     },
