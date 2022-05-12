@@ -12,7 +12,8 @@
 
 `python3 -m pip install --user chart-studio`
 
+-Once you have those installed, simply copy/paste code into your editor of choice and run from there.
 
+--WIP-- 
 
-
-TBA: create webapge, and store all visualizations there for easy access.
+creating webpage to store all visualizations
