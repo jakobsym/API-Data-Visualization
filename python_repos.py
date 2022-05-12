@@ -1,3 +1,12 @@
+"""
+
+Gathering API data from GitHub, on top Python repos.
+Will be storing data in dictionary 'response_dict', which is accessed for analyzing key/value pairs.
+
+"""
+
+
+
 #Processing API response
 import requests
 
@@ -18,7 +27,7 @@ repo_dicts = response_dict['items'] #value associated with 'items' is a list con
 print(f"Repositories returned: {len(repo_dicts)}")
 
 """
-#Examine first repository
+#Examine first repository to see what keys exist and gather their names
 repo_dict = repo_dicts[0]
 print(f"Keys: {len(repo_dict)}") #Will print number of keys from dictionary[0]
 
