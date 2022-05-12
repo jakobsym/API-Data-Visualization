@@ -5,8 +5,6 @@ Will be storing data in dictionary 'response_dict', which is accessed for analyz
 
 """
 
-
-
 #Processing API response
 import requests
 
